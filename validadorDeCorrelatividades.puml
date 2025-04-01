@@ -14,7 +14,6 @@ class Inscripcion {
 }
 
 class Materia {
-    - codigo: String
     - nombre: String
     - correlativas: Set<Materia>
     + cumpleCorrelativas(alumno: Alumno): Boolean
